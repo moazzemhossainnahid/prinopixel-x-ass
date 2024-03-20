@@ -2138,6 +2138,11 @@ react-router@6.22.3:
   dependencies:
     "@remix-run/router" "1.15.3"
 
+react-scroll-snap@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-scroll-snap/-/react-scroll-snap-1.0.0.tgz#b567aeb1cf394d270be198107066f80bbc7199ad"
+  integrity sha512-CRvdc8dXN2+mMZW8fd82fhcEwGYm8SkGvQkSdA0pI9BL4hnbX87f8nwDzq7xfsNnK1q5/kmduNeeEt0qf1+udg==
+
 react-scroll@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/react-scroll/-/react-scroll-1.9.0.tgz#2984006e184afd0e4018f837d127edf5fa8f152c"

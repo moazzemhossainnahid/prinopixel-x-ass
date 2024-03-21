@@ -53,7 +53,7 @@ const StoriesNews = () => {
                                     <div className="text start relative">
                                         <h3 className="text-2xl font-semibold">Introducing Tidal</h3>
                                         <p className="pt-10">A Moonshot of project the ocean and feed humanity sustainably</p>
-                                        <div className="cursor-pointer md:pt-20 h-full flex justify-between text-start w-full gap-7 ">
+                                        <div className="cursor-pointer md:pt-12 h-full flex justify-between text-start w-full gap-7 ">
                                             <h3 className="text-md text-[#FFB300] pt-3">X PROJECTS</h3>
                                             <div className="text-3xl text-[#FFB300] rounded w-12 h-12 flex justify-center items-center overflow-x-hidden"><FaArrowRight className="" /></div>
                                         </div>
@@ -80,7 +80,7 @@ const StoriesNews = () => {
                                     <div className="text start relative">
                                         <h3 className="text-2xl font-semibold">Introducing Tidal</h3>
                                         <p className="pt-10">A Moonshot of project the ocean and feed humanity sustainably</p>
-                                        <div className="cursor-pointer md:pt-20 h-full flex justify-between text-start w-full gap-7 ">
+                                        <div className="cursor-pointer md:pt-12 h-full flex justify-between text-start w-full gap-7 ">
                                             <h3 className="text-md text-[#FFB300] pt-3">X PROJECTS</h3>
                                             <div className="text-3xl text-[#FFB300] rounded w-12 h-12 flex justify-center items-center overflow-x-hidden"><FaArrowRight className="" /></div>
                                         </div>
@@ -106,7 +106,7 @@ const StoriesNews = () => {
                                     <div className="text start relative">
                                         <h3 className="text-2xl font-semibold">Introducing Tidal</h3>
                                         <p className="pt-10">A Moonshot of project the ocean and feed humanity sustainably</p>
-                                        <div className="cursor-pointer md:pt-20 h-full flex justify-between text-start w-full gap-7 ">
+                                        <div className="cursor-pointer md:pt-12 h-full flex justify-between text-start w-full gap-7 ">
                                             <h3 className="text-md text-[#FFB300] pt-3">X PROJECTS</h3>
                                             <div className="text-3xl text-[#FFB300] rounded w-12 h-12 flex justify-center items-center overflow-x-hidden"><FaArrowRight className="" /></div>
                                         </div>

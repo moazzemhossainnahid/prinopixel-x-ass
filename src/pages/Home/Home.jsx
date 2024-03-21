@@ -1,6 +1,7 @@
 import PublicXProject from "../../components/pages/Home/PublicXProject";
 import ExtText from "../../components/pages/Home/ExtText";
 import StoriesNews from "../../components/pages/Home/StoriesNews";
+import XTimeline from "../../components/pages/Home/XTimeline";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <ExtText/>
             <PublicXProject/>
             <StoriesNews/>
+            <XTimeline/>
         </div>
     );
 };

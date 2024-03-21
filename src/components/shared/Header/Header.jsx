@@ -1,7 +1,10 @@
-import { FaBars } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Hamburger from "hamburger-react";
+import { useState } from "react";
 
 const Header = () => {
+    const [isOpen, setOpen] = useState(false);
+
     return (
         <motion.div
             className="w-full h-full relative overflow-hidden"
@@ -25,7 +28,8 @@ const Header = () => {
                     animate={{ y: 0, opacity: 1, marginTop: 25 }}
                     transition={{ duration: 1, delay: 1 }}
                 >
-                    <FaBars className="text-4xl" />
+                    <Hamburger toggled={isOpen} size={25} toggle={setOpen} />
+
                 </motion.div>
             </div>
             <motion.video
@@ -40,7 +44,7 @@ const Header = () => {
                 transition={{ duration: 1, delay: 1 }}
                 style={{ objectFit: "cover", objectPosition: "center" }}
             >
-                <source src="/X, the moonshot factory.mp4" type="video/mp4" />
+                <source src="https://media.exclusivecarport.com/videos/1711006305611-544183262-X, the moonshot factory.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </motion.video>
         </motion.div>

@@ -116,9 +116,9 @@ const StoriesNews = () => {
 
                                 <div className=" h-[52vh] text-[#FFB300] md:h-[80vh] w-full bg-black object-cover group-hover:scale-100 duration-200">
 
-                                    <div className="p-5 md:py-20">
+                                    <div className="p-5 md:py-10">
                                         <FaQuoteLeft className='text-[#FFB300] text-3xl' />
-                                        <p className="pl-5 md:pr-10 pt-5 text-sm md:text-xl tracking-widest"> On the 10 year anniversary of X, WIRED UK takes a look at what we’ve been up to at the factory — featuring prototypes, plant buggies and Astro dressed as Gandalf </p>
+                                        <p className="pl-5 md:pr-10 pt-5 text-sm md:text-md tracking-widest"> On the 10 year anniversary of X, WIRED UK takes a look at what we’ve been up to at the factory — featuring prototypes, plant buggies and Astro dressed as Gandalf </p>
                                         <p className="pt-7">- Astro Teller</p>
                                     </div>
                                 </div>
